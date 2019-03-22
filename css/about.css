@@ -227,7 +227,7 @@ button:hover {
   }
 
   100% {
-    background-color: #326a92;
+    background-color: black;
     color: white;
   }
 }
