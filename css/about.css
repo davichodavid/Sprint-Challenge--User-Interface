@@ -190,7 +190,6 @@ header {
   display: flex;
   padding-bottom: 20px;
   margin-bottom: 40px;
-  justify-content: ;
 }
 
 .second-content div,
@@ -198,6 +197,18 @@ header {
   border-bottom: 1px dotted black;
   margin-right: 20px;
   padding-bottom: 20px;
+}
+
+.img {
+  margin-bottom: 10px;
+}
+
+button {
+  font-size: 14px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin-top: 20px;
 }
 
 #last {
