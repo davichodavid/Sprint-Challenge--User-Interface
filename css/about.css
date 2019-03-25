@@ -179,58 +179,65 @@ header {
   margin-bottom: 20px;
 }
 
-.top-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-bottom: 20px;
-  border-bottom: 1px dashed black;
-}
-
-.top-content .text-container {
-  width: 48%;
-  padding: 0 1%;
+.first-content {
   padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 1px dotted black;
 }
 
-.middle-content {
-  margin-bottom: 20px;
-  border-bottom: 1px dashed black;
-}
-
-.middle-content h2 {
-  padding: 0 2%;
-  margin-bottom: 0;
-}
-
-.middle-content .boxes {
+.second-content,
+.third-content {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
 }
 
-.middle-content .boxes .box {
-  width: 12.5%;
-  height: 100px;
-  margin: 20px 2.5%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.second-content div,
+.third-content div {
+  border-bottom: 1px dotted black;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
 }
 
-.bottom-content {
-  display: flex;
-  margin: 0 2% 20px;
-  justify-content: space-around;
+.img {
+  margin-bottom: 10px;
 }
 
-.bottom-content .text-container {
-  padding-right: 4%;
+button {
+  font-size: 14px;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin-top: 20px;
 }
 
-.bottom-content .text-container:last-child {
-  padding-right: 0;
+.last-button {
+  margin-top: 40px;
+}
+
+button:hover {
+  animation: pulse 2s 1;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: rgb(255, 255, 255);
+    color: black
+  }
+
+  100% {
+    background-color: black;
+    color: white;
+  }
+}
+
+#last {
+  margin-right: 0;
+}
+
+.last-content {
+  margin-bottom: 40px;
 }
 
 footer {
@@ -250,44 +257,4 @@ footer nav {
 footer nav a {
   color: white;
   text-decoration: none;
-}
-
-.box1 {
-  background: teal;
-}
-
-.box2 {
-  background: gold;
-}
-
-.box3 {
-  background: cadetblue;
-}
-
-.box4 {
-  background: coral;
-}
-
-.box5 {
-  background: crimson;
-}
-
-.box6 {
-  background: forestgreen;
-}
-
-.box7 {
-  background: darkorchid;
-}
-
-.box8 {
-  background: hotpink;
-}
-
-.box9 {
-  background: indigo;
-}
-
-.box10 {
-  background: dodgerblue;
 }
